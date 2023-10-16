@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\CoordinateLocationController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -20,3 +22,10 @@ Route::get('/', function () {
 Route::get('/map', function () {
     return view('map');
 });
+
+Route::controller(CoordinateLocationController::class)->group(function () {
+    Route::get('/test', 'displayLocations');
+});
+
+
+

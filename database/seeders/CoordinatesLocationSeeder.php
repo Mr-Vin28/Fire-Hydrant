@@ -739,5 +739,6 @@ class CoordinatesLocationSeeder extends Seeder
             'longitute' => 121.165833,
             'address' => 'Villas Estella (Baclaran)'
         ]);
+        
     }
 }

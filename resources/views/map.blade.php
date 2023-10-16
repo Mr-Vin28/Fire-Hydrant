@@ -2,14 +2,10 @@
 <html>
 <head>
     <title>OpenStreetMap in Laravel</title>
-    <!-- <link rel="stylesheet" href="{{ asset('node_modules/leaflet/dist/leaflet.css') }}">
-     -->
-
+    
     <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.min.css">
 
-    <!-- <link rel="stylesheet" href="{{ mix('css/app.css') }}">
-    <script src="{{ mix('js/app.js') }}"></script> -->
 
 
 
