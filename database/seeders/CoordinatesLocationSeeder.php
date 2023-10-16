@@ -19,5 +19,6 @@ class CoordinatesLocationSeeder extends Seeder
             'longitute' => 121.11925,
             'address' => 'Adelina'
         ]);
+        
     }
 }

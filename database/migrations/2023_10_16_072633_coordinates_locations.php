@@ -12,7 +12,7 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('coordinates_locations', function(Blueprint $table) {
-            $table->unsignedBigInteger('coordinates_id');
+            $table->bigIncrements('coordinates_id');
             $table->double('latitude');
             $table->double('longitute');
             $table->string('address');
