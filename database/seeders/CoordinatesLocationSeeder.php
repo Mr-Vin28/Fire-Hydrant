@@ -13,6 +13,7 @@ class CoordinatesLocationSeeder extends Seeder
      */
     public function run(): void
     {
+
         CoordinatesLocations::create([
             'coordinates_id' => 1,
             'latitude' => 14.243217,
@@ -740,5 +741,6 @@ class CoordinatesLocationSeeder extends Seeder
             'address' => 'Villas Estella (Baclaran)'
         ]);
         
+
     }
 }
