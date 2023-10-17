@@ -741,6 +741,7 @@ class CoordinatesLocationSeeder extends Seeder
             'address' => 'Villas Estella (Baclaran)'
         ]);
         
+        
 
     }
 }
